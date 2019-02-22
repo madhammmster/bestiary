@@ -1,0 +1,26 @@
+.login-route, .register-route {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  min-height: 100vh;
+
+  .container-login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .container-register-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .register-text{
+        padding-right: 5px;
+    }
+  }
+}
